@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+*.log
+
+# Local full datasets must not be committed
+data/
+*.csv
+!data_sample/*.csv
+
+metabase/clickhouse.metabase-driver.jar
